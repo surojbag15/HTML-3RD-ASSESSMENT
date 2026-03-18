@@ -241,6 +241,10 @@ a {
   padding-bottom: clamp(80px, 12vw, 151px);
 }
 
+.paragraph-1,
+.paragraph-2 {
+  margin-bottom: 14px;
+}
 .upper-heading {
   font-family: var(--font-poppins);
   font-weight: 500;
@@ -553,7 +557,10 @@ hr {
   .banner-content {
     max-width: none;
   }
-
+  .about-content .paragraph,
+  .mission-content .paragraph {
+    max-width: 850px;
+  }
   .mission-content {
     margin-left: 0;
   }
